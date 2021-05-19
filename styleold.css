@@ -1,0 +1,143 @@
+.nav-link{
+    padding: 20px !important;
+    color: whitesmoke !important;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+    background-color: rgb(18, 18, 19);
+}
+
+.bg-dark{
+          color: black !important;
+}
+.flex{
+    display: flex !important;
+    line-height: 15px;
+    text-shadow: thistle 2px 3px 3px;
+    justify-content: center;
+    background-image: url(./pic/3.jpg) ; 
+    border: solid 2px black;
+    
+    
+}
+
+.para{
+    padding-right: 240px !important;
+}
+
+.nav-item{
+    margin-left: 10px;
+}
+
+.head{
+    padding-left:  50px;
+}
+
+.approved{
+     text-align: center;
+    font-weight: bold; color: green;
+    font-style: italic;
+    text-shadow: 1px 1px 1px rgb(236, 224, 224);
+}
+.collage{
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+    text-shadow: rgb(180, 175, 175) 2px 2px 2px;
+}
+.heading{
+    font-family: cursive; 
+    
+    text-shadow: 3px 3px 3px rgb(253, 249, 249);
+    
+}
+
+
+@media screen and (max-width: 600px) {
+    .heading{
+      text-align: center;
+    }
+  }
+
+
+.main{
+    display: flex;
+    color: blanchedalmond;
+    background-color: #0cbaba;
+background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);                                      
+     
+}
+
+
+@media screen and (max-width: 600px) {
+    .main {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin-top: 70px;
+    }
+  }
+
+  
+@media screen and (max-width: 600px) {
+    .footer {
+      height: 20px;
+    }
+  }
+
+.center1{
+    text-align: center; margin-top: 50px;
+    font-size: larger;
+    text-shadow: black 2px 2px 2px;
+
+}
+.center{
+    text-align: center; margin-top: 80px;
+    font-size: larger;
+    text-shadow: black 2px 2px 2px;
+}
+
+.main1{
+    border: 4px solid black;
+}
+
+h2{
+    font-size: 72px;
+    text-shadow: black 1px 1px 2px ;
+    text-align: center;
+  }
+  
+.hazmat{
+    text-align: center;
+
+    text-shadow: black 1px 1px 2px ;
+    text-align: center;
+  
+    text-transform: uppercase;
+}
+
+.nav{
+    display: flex;
+    justify-items: center;
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: large;
+    font-weight: bold;
+}
+.card{
+    border: 5px solid  black !important;
+}
+.footer{ 
+
+    border: solid 4px black;
+
+    width: 100px;
+    height: 90px;
+    background: 
+      repeating-radial-gradient(
+        circle at 0 0, 
+        #eee,
+        #ccc 50px
+      )
+    }
+
