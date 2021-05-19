@@ -146,16 +146,16 @@ function fillTable(){
 
         tab.appendChild(tr)
 
-        var td=document.createElement('td')
+        // var td=document.createElement('td')
 
-        var btn=document.createElement('button')
-        btn.innerHTML="Firebase"
-        btn.setAttribute('id',stList[i]['Cert No'])
-        btn.setAttribute('onclick','saveFirebase(this)')
-        td.appendChild(btn)
-        tr.appendChild(td)
+        // var btn=document.createElement('button')
+        // btn.innerHTML="Firebase"
+        // btn.setAttribute('id',stList[i]['Cert No'])
+        // btn.setAttribute('onclick','saveFirebase(this)')
+        // td.appendChild(btn)
+        // tr.appendChild(td)
 
-        tab.appendChild(tr)
+        // tab.appendChild(tr)
 
         
 
